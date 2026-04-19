@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Email</title>
+</head>
+
+<body>
+
+<h2>Email kiriting</h2>
+
+<form method="POST">
+
+<input type="text" name="email">
+
+<button type="submit">
+Tekshirish
+</button>
+
+</form>
+
+{% if result %}
+<h3>{{ result }}</h3>
+{% endif %}
+
+</body>
+</html>
